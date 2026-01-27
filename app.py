@@ -125,7 +125,7 @@ def main():
         with col1:
             if show_original:
                 st.subheader("📸 Original Image")
-                st.image(image, use_container_width=True)
+                st.image(image, use_column_width=True)
         
         with col2:
             st.subheader("🔮 Prediction")
